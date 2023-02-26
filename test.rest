@@ -1,0 +1,33 @@
+
+
+GET http://localhost:3000/user
+
+
+###
+
+GET http://localhost:3000/user/63fb6ee7730af9fb5afaeb6b
+
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "email": "Polpoi@go.com",
+    "firstName" : "Meuhd",
+    "lastName":"Poio",
+    "phone":"0625250025"
+}
+
+###
+PATCH http://localhost:3000/user/63fb6ee7730af9fb5afaeb6b
+Content-Type: application/json
+
+{
+    "phone":"070012562235"
+}
+
+###
+DELETE http://localhost:3000/user/63fb6ed0730af9fb5afaeb64
+
